@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    text-align: center;
+    background: burlywood;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+.form{
+    background-color: brown;
+    width: 420px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+#regno, #password{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 2px;
+    border: 1px solid burlywood;
+}

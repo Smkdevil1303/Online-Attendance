@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    text-align: center;
+    background: burlywood;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.logform{
+    background: brown;
+    width: 420px;
+    color: white;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.student, .staff, .hod{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+}
+.student:hover{
+    background-color: burlywood;
+    color: brown;
+}
+.staff:hover{
+    background-color: burlywood;
+    color: brown;
+}
+.hod:hover{
+    background-color: burlywood;
+    color: brown;
+}
+.dot{
+    font-size: 50px;
+    margin-top: -30px;
+}
+hr{
+    padding: 1px;
+    margin: 0px 10px;
+    background-color: burlywood;
+    border-radius: 5px;
+}
